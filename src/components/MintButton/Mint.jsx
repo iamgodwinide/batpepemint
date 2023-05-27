@@ -4,7 +4,7 @@ import newcontract from './Newcontract.json';
 import { useAlert } from 'react-alert';
 import './style.css'
 
-const newcontractAddress = "0x3bE3A9DD022E43d4604819d540b7Ad1028E53AbF";
+const newcontractAddress = "0x88bE91c05ca35fB99ad8C9f3B666273bB9613B0d";
 
 const Mint = ({ accounts, setAccounts }) => {
     const [price, setPrice] = useState('0.01')
