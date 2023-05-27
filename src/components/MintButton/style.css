@@ -1,5 +1,3 @@
-
-
 body{
     background-color: red !important;
     font-family: 'Poppins', sans-serif;
@@ -43,7 +41,7 @@ button{
 
 .inc-buttons input{
     width: 50%;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: 'Poppins';
     padding: .4em;
     text-align: center;
@@ -57,7 +55,7 @@ button{
 
 .mint-button{
     margin-top: 1em;
-    width: 8em;
+    width: 12em;
     font-size: 1.5em;
     margin-right: 1em;
     background-color: yellow;
@@ -74,3 +72,5 @@ button{
     font-family: 'Poppins';
     margin-top: 1em;
 }
+
+
