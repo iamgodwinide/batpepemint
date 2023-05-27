@@ -1,0 +1,76 @@
+
+
+body{
+    background-color: red !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: .6em .8em;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase !important;
+    font-family: 'Poppins';
+}
+
+.connect{
+    background-color: yellow;
+    color: #000;
+}
+
+.inc-buttons p{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.inc-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 3em;
+    border-radius: 50%;
+}
+
+.inc-buttons input{
+    width: 50%;
+    font-size: 1.3em;
+    font-family: 'Poppins';
+    padding: .4em;
+    text-align: center;
+}
+
+.buy-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint-button{
+    margin-top: 1em;
+    width: 8em;
+    font-size: 1.5em;
+    margin-right: 1em;
+    background-color: yellow;
+}
+
+.amount {
+    color: #fff;
+    margin: 0 1em;
+}
+
+.price-wrap h4{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 1em;
+}
