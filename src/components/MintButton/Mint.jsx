@@ -61,7 +61,7 @@ const Mint = ({ accounts, setAccounts }) => {
                 </div>
 
                 <div className="buy-buttons">
-                <button onClick={mint} className='mint-button'>
+                <button onClick={mint} className='mint-button buy'>
                     buy
                 </button>
                 <button onClick={()=>{}} className='mint-button'>

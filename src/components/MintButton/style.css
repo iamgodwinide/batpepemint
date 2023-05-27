@@ -18,6 +18,11 @@ button{
     font-family: 'Poppins';
 }
 
+.buy{
+    background-color: green !important;
+    color: #fff;
+}
+
 .connect{
     background-color: yellow;
     color: #000;
