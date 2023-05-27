@@ -74,3 +74,9 @@ button{
 }
 
 
+@media screen and (max-width: 1024px){
+    .mint-button{
+        width: 8em;
+    }
+    
+}
