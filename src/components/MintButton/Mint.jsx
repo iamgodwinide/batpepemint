@@ -7,7 +7,7 @@ import './style.css'
 const newcontractAddress = "0x3bE3A9DD022E43d4604819d540b7Ad1028E53AbF";
 
 const Mint = ({ accounts, setAccounts }) => {
-    const [price, setPrice] = useState(0)
+    const [price, setPrice] = useState(0.01)
     const alert = useAlert();
 
     async function handleMint() {
