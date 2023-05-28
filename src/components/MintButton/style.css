@@ -21,6 +21,7 @@ button{
 .buy{
     background-color: green !important;
     color: #fff;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .connect{

@@ -32,6 +32,26 @@ const Mint = ({ accounts, setAccounts }) => {
         };
     };
 
+    async function handleClaim() {
+        if (window.ethereum) {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+            const contract = new ethers.Contract(
+                newcontractAddress,
+                newcontract,
+                signer
+            );
+            try {
+                const response = await contract.claimTokens();
+                alert.success("minted successfully");
+                console.log(response);
+            } catch (err) {
+                alert.error(err?.reason);
+                console.log("error: ", err)
+            };
+        };
+    };
+
 
     const handleInput = e => {
         setPrice(e.target.value);
@@ -64,7 +84,7 @@ const Mint = ({ accounts, setAccounts }) => {
                 <button onClick={mint} className='mint-button buy'>
                     buy
                 </button>
-                <button onClick={()=>{}} className='mint-button'>
+                <button onClick={handleClaim} className='mint-button'>
                     claim
                 </button>
                 </div>
